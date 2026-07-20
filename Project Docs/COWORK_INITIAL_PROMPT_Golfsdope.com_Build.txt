@@ -1,0 +1,9 @@
+PASTE THIS INTO COWORK'S PROMPT BOX TO START THE BUILD SESSION:
+
+---
+
+Start by opening the Dope_Golf_Assets folder on the desktop. Look through both subfolders — "Dope Golf Images" and "Dopegolf Website" — and give me a quick inventory of what's in each. List the file names and types.
+
+Once I see what we're working with, I'll walk you through building the coming-soon page on the Hostinger tab that's already open in the browser (DG Clubhouse site, builder.hostinger.com). We're working from the project instructions you already have in "Golfsdope.com_Build" — brand rules are locked, no deviation. The hero line is "Get Ready For Dope Golf." and we're building this out section by section, not all at once.
+
+Before you click live on Hostinger, confirm with me that the folder inventory looks right and we agree on which images go where. Then we'll start with the hero section.
