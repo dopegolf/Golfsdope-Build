@@ -1,0 +1,22 @@
+capability,type,owner,version,permissions,status,test_date,rollback
+Claude Desktop + Cowork,execution_environment,Anthropic,current,full_sandbox,active,2026-07-20,N/A
+Claude Code,execution_environment,Anthropic,current,terminal_and_repos,installed,2026-07-20,uninstall
+GitHub,source_control,TBD,TBD,TBD,not_connected,,remove_oauth
+Git,tool,system,TBD,local_only,installed_unverified,,system
+Node.js,tool,system,TBD,local_only,installed_unverified,,system
+npm,tool,system,TBD,local_only,installed_unverified,,system
+Python,tool,system,TBD,local_only,installed_unverified,,system
+uv,tool,system,TBD,local_only,installed_unverified,,system
+GitHub CLI,tool,GitHub,TBD,TBD,unknown,,uninstall
+Docker Desktop,tool,Docker,TBD,TBD,unknown,,uninstall
+VS Code,tool,Microsoft,TBD,TBD,unknown,,uninstall
+Vercel CLI,tool,Vercel,TBD,TBD,unknown,,uninstall
+Cloudflare Wrangler,tool,Cloudflare,TBD,TBD,unknown,,uninstall
+Skills (public),procedure,Anthropic,current,read_only,active,2026-07-20,N/A
+Skills (private),procedure,TBD,TBD,TBD,empty,,N/A
+Hooks,execution,TBD,TBD,TBD,not_configured,,remove
+Routines,execution,TBD,TBD,TBD,not_configured,,remove
+Playwright,testing,npm/pip,TBD,local_only,installed_unverified,,uninstall
+ESLint,quality,per_repo,TBD,local_only,not_installed,,npm_uninstall
+Prettier,quality,per_repo,TBD,local_only,not_installed,,npm_uninstall
+Vitest,testing,per_repo,TBD,local_only,not_installed,,npm_uninstall

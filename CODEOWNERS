@@ -1,0 +1,25 @@
+# CODEOWNERS — Defines mandatory human review
+# Ronnie must review changes to these paths
+
+# Root governance files
+/CLAUDE.md @ronnie
+/CODEOWNERS @ronnie
+/.env.example @ronnie
+
+# Security and architecture docs
+/docs/SECURITY.md @ronnie
+/docs/ARCHITECTURE.md @ronnie
+/docs/DECISIONS.md @ronnie
+
+# CI/CD workflows
+/.github/workflows/ @ronnie
+
+# Registry files
+/registry/ @ronnie
+
+# Scripts that touch production
+/scripts/deploy* @ronnie
+/scripts/backup* @ronnie
+
+# Secret-adjacent files
+*.env.example @ronnie
