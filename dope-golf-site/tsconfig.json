@@ -9,6 +9,7 @@
     "noImplicitOverride": true,
     "noFallthroughCasesInSwitch": true,
     "isolatedModules": true,
+    "noEmit": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "lib": ["ES2021", "DOM", "DOM.Iterable"],
