@@ -1,7 +1,22 @@
 # Handoff
 
-Last updated: 2026-07-22 (evening)
+Last updated: 2026-07-22 (night) — SITE IS LIVE ON GOLFSDOPE.COM
 Updated by: COWORK Danni (Claude Code session)
+
+## LIVE-SITE CUTOVER RECORD (2026-07-22, Ronnie-approved)
+- New site deployed to Hostinger Business hosting (Phoenix DC), vhost
+  golfsdope.com (addon) + staging mediumaquamarine-locust-610650.hostingersite.com.
+- Old Website Builder site preserved (NOT deleted) at:
+  navajowhite-squirrel-builder-c5tfurykzryuqzxs.hostingersite.com
+- Cloudflare DNS (Ronnie's account): A golfsdope.com -> 148.135.128.25,
+  DNS-only (grey cloud). Verified: 301 http->https, 200, valid LE cert to
+  2026-10-01, www resolves.
+- ROLLBACK: in Cloudflare, point A record back at the builder (re-orange);
+  in hPanel, change builder site's domain back to golfsdope.com.
+- No @golfsdope.com mailboxes existed (verified in hPanel before domain
+  change acknowledgment).
+- OPTIONAL NEXT: re-enable Cloudflare proxy (orange cloud) with SSL mode
+  "Full (strict)" now that origin cert is valid.
 
 ---
 
