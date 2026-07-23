@@ -41,7 +41,7 @@ site in `dope-golf-site/` on branch `feature/dope-golf-scroll-site`.
   Mobile 375px verified: no overflow, single-column cards, collapsed nav.
 
 ## In Progress
-- Ronnie visual review of v2 (dev server: `npm run dev` → localhost:5177).
+- Nothing active. Site v3 approved by Ronnie and LIVE on golfsdope.com.
 
 ## Blocked
 - Higgsfield hero *video* + any future video work: free plan, 8.32 credits —
@@ -60,10 +60,11 @@ site in `dope-golf-site/` on branch `feature/dope-golf-scroll-site`.
   latest instruction (crowned crest = current). DECISIONS.md not yet updated.
 
 ## Exact Next Action
-Ronnie reviews localhost:5177. If approved: `git add dope-golf-site && commit`
-on `feature/dope-golf-scroll-site`, open PR to main, then decide deployment
-path for golfsdope.com (currently on Hostinger builder — needs either static
-deploy or replacement).
+1. Ronnie merges PR #1 (github.com/dopegolf/Golfsdope-Build/pull/1) so main
+   matches production.
+2. Wire the VIP email form to a real backend (currently client-side only —
+   signups are NOT stored). Highest-value next build.
+3. Optional: re-enable Cloudflare proxy (orange cloud) + SSL "Full (strict)".
 
 ## Resumption Instructions
 - Project: `dope-golf-site/` (Vite + TS, strict). `npm install`, `npm run dev`.
