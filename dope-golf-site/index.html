@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dope Golf — Higher Vibes • Lower Scores</title>
+    <meta
+      name="description"
+      content="Dope Golf — premium golf lifestyle and apparel from Phoenix, AZ. Higher Vibes. Lower Scores. Play Dope. Stay Dope."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Oswald:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Fixed top bar -->
+    <header class="topbar" data-topbar>
+      <a class="topbar__brand" href="#hero" aria-label="Dope Golf home">
+        <img src="/assets/dg-crown.png" alt="" class="topbar__mark" />
+        <span class="topbar__name">DOPE GOLF</span>
+      </a>
+      <span class="topbar__progress" data-progress aria-hidden="true"></span>
+      <nav class="topbar__nav" aria-label="Primary">
+        <a href="#collections">Collections</a>
+        <a href="#story">The Movement</a>
+        <a href="#vip" class="topbar__cta">Join VIP</a>
+      </nav>
+    </header>
+
+    <!-- 1. HERO -->
+    <section id="hero" class="hero" data-hero>
+      <div class="hero__bg" data-parallax="0.25">
+        <img
+          src="/assets/hero-movement.jpg"
+          alt=""
+          class="hero__photo"
+          fetchpriority="high"
+        />
+        <div class="hero__scrim"></div>
+      </div>
+      <canvas class="hero__particles" data-particles aria-hidden="true"></canvas>
+      <div class="hero__vignette" aria-hidden="true"></div>
+
+      <div class="hero__content" data-hero-content>
+        <img
+          src="/assets/dg-crown.png"
+          alt="Dope Golf DG crown monogram"
+          class="hero__crest"
+        />
+        <h1 class="hero__wordmark">
+          <span class="line">DOPE</span>
+          <span class="line line--gold">GOLF</span>
+        </h1>
+        <p class="hero__tagline">Higher Vibes <span class="dot">•</span> Lower Scores</p>
+        <p class="hero__sub">
+          Welcome to Dope Golf. Premium golf lifestyle out of Phoenix, Arizona —
+          <em>dope things are coming.</em>
+        </p>
+        <div class="hero__actions">
+          <a href="#vip" class="btn btn--gold">Join The Movement</a>
+          <a href="#collections" class="btn btn--ghost">Preview The Collections</a>
+        </div>
+      </div>
+
+      <a href="#collections" class="hero__scroll" aria-label="Scroll to collections">
+        <span class="hero__scroll-dot"></span>
+        <span class="hero__scroll-label">Scroll</span>
+      </a>
+      <div class="grain" aria-hidden="true"></div>
+    </section>
+
+    <!-- Marquee strip -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Play Dope</span><span class="sep">✦</span>
+        <span>Stay Dope</span><span class="sep">✦</span>
+        <span>Higher Vibes</span><span class="sep">✦</span>
+        <span>Lower Scores</span><span class="sep">✦</span>
+        <span>Dope Things Are Coming</span><span class="sep">✦</span>
+        <span>Play Dope</span><span class="sep">✦</span>
+        <span>Stay Dope</span><span class="sep">✦</span>
+        <span>Higher Vibes</span><span class="sep">✦</span>
+        <span>Lower Scores</span><span class="sep">✦</span>
+        <span>Dope Things Are Coming</span><span class="sep">✦</span>
+      </div>
+    </div>
+
+    <!-- 2. COLLECTIONS -->
+    <section id="collections" class="collections">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">The Collections — In The Works</p>
+        <h2 class="section-title" data-split>Five lines. <em>Worth the wait.</em></h2>
+        <p class="section-lede">
+          A first look at what we're building — from Tour Black Label to Miami Vice.
+          Nothing drops until it's right. When it lands, the VIP crew hears first.
+        </p>
+      </div>
+
+      <div class="cards" data-cards>
+        <!-- cards injected here by main.ts -->
+      </div>
+
+      <div class="proof-wrap" data-reveal>
+        <p class="proof-caption">The standard every piece is being built to:</p>
+        <ul class="proof-legend">
+          <li><span class="proof-dot"></span> Hydrophobic</li>
+          <li><span class="proof-dot"></span> Moisture-wicking</li>
+          <li><span class="proof-dot"></span> Antimicrobial</li>
+          <li><span class="proof-dot"></span> Structured fit</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Desert band — full-bleed Sonoran statement -->
+    <section class="desert" aria-label="Rooted in the Sonoran desert">
+      <div class="desert__bg" data-parallax="0.18">
+        <img src="/assets/desert-dawn.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="desert__scrim" aria-hidden="true"></div>
+      <div class="desert__content">
+        <p class="eyebrow" data-reveal>From Phoenix, Arizona</p>
+        <h2 class="desert__title" data-reveal data-split>Rooted in the desert. Made for anywhere.</h2>
+        <p class="desert__lede" data-reveal>
+          Hundred-degree tee times taught us everything: fabrics that breathe,
+          colors that glow at golden hour, and a crew that shows up anyway.
+        </p>
+      </div>
+      <div class="grain" aria-hidden="true"></div>
+    </section>
+
+    <!-- 3. BRAND STORY / FOUNDER -->
+    <section id="story" class="story">
+      <div class="story__media" data-reveal>
+        <div class="story__photo-wrap" data-clip>
+          <img src="/assets/movement-celebration.jpg" alt="The Dope Golf crew celebrating a putt at golden hour" class="story__photo" />
+        </div>
+      </div>
+
+      <div class="story__copy" data-reveal>
+        <p class="eyebrow">The Movement</p>
+        <h2 class="section-title" data-split>It was never <em>just about golf.</em></h2>
+        <p>
+          Dope Golf started in the Sonoran desert with a simple idea: the course should
+          feel like <strong>you</strong>. Confident. A little loud. Unmistakably premium.
+          We don't do stiff country-club energy, and we don't do throwaway streetwear.
+          We do elevated — the kind of gear that plays as clean as it looks.
+        </p>
+        <p>
+          From Phoenix to whatever course you call home, this is a community first and a
+          brand second. Real people, real rounds, higher vibes. That's the whole point.
+        </p>
+        <blockquote class="story__quote">"Play Dope. Stay Dope."</blockquote>
+        <p class="story__from">Dope Golf LLC — Phoenix, Arizona · Est. 2024</p>
+      </div>
+    </section>
+
+    <!-- Film strip: the movement in motion -->
+    <section class="filmstrip" aria-label="Dope Golf lifestyle gallery">
+      <div class="filmstrip__track" aria-hidden="true">
+        <img src="/assets/clubhouse-19th.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-desert-classic.jpg" alt="" loading="lazy" />
+        <img src="/assets/hero-movement.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-pinseeker.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-miami-vice.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-tour-black.jpg" alt="" loading="lazy" />
+        <img src="/assets/clubhouse-19th.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-desert-classic.jpg" alt="" loading="lazy" />
+        <img src="/assets/hero-movement.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-pinseeker.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-miami-vice.jpg" alt="" loading="lazy" />
+        <img src="/assets/col-tour-black.jpg" alt="" loading="lazy" />
+      </div>
+      <p class="filmstrip__caption">The movement, everywhere <span>· @DopeGolfCompany</span></p>
+    </section>
+
+    <!-- 4. VIP EMAIL CAPTURE -->
+    <section id="vip" class="vip">
+      <div class="vip__glow" aria-hidden="true"></div>
+      <div class="vip__inner" data-reveal>
+        <span class="vip__mark-ring">
+          <img src="/assets/dg-crown.png" alt="Dope Golf DG crown monogram" class="vip__mark" />
+        </span>
+        <p class="eyebrow">VIP Insider Crew</p>
+        <h2 class="vip__title">Higher Vibes • Lower Scores.<br /><em>Get first access.</em></h2>
+        <p class="vip__lede">
+          First access, first looks, and desert-born stories — straight to your inbox
+          before anyone else.
+        </p>
+        <form class="vip__form" data-vip-form novalidate>
+          <label class="sr-only" for="vip-email">Email address</label>
+          <input
+            id="vip-email"
+            name="email"
+            type="email"
+            inputmode="email"
+            autocomplete="email"
+            placeholder="you@example.com"
+            required
+          />
+          <button type="submit" class="btn btn--gold">Join The Movement</button>
+          <p class="vip__msg" data-vip-msg role="status" aria-live="polite"></p>
+        </form>
+        <p class="vip__fineprint">No spam. Unsubscribe anytime. Play Dope. Stay Dope.</p>
+      </div>
+      <div class="grain" aria-hidden="true"></div>
+    </section>
+
+    <!-- 5. FOOTER -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="/assets/dg-crown.png" alt="Dope Golf DG crown monogram" class="footer__crest" />
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h4>Explore</h4>
+            <a href="#collections">The Collections</a>
+            <a href="#story">The Movement</a>
+            <a href="#vip">Join VIP</a>
+          </div>
+          <div class="footer__col">
+            <h4>Follow</h4>
+            <a href="https://instagram.com/dopegolfcompany" target="_blank" rel="noopener noreferrer">Instagram @DopeGolfCompany</a>
+            <a href="https://facebook.com/DopeGolfCompany" target="_blank" rel="noopener noreferrer">Facebook · Dope Golf Company</a>
+            <a href="https://youtube.com/@dopegolfcompany" target="_blank" rel="noopener noreferrer">YouTube @DopeGolfCompany</a>
+          </div>
+          <div class="footer__col">
+            <h4>Dope Golf LLC</h4>
+            <span>Phoenix, Arizona</span>
+            <a href="https://golfsdope.com">golfsdope.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__stamp">
+        <span class="footer__tagline">Play Dope. Stay Dope.</span>
+        <span class="footer__vibes">Higher Vibes • Lower Scores</span>
+      </div>
+      <div class="footer__legal">
+        <span>© <span data-year>2024</span> Dope Golf LLC. All rights reserved.</span>
+        <span>Rooted in the desert. Made for anywhere.</span>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
