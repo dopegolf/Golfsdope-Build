@@ -1,0 +1,64 @@
+export interface Collection {
+  name: string;
+  locale: string;
+  blurb: string;
+  proof: string[];
+  /** Lifestyle image path (public/assets). */
+  image: string;
+  /** CSS custom accent for the card's color story. */
+  accent: string;
+  accent2: string;
+}
+
+export const collections: Collection[] = [
+  {
+    name: "Tour Black Label",
+    locale: "The Flagship",
+    blurb:
+      "Blacked-out, gold-stitched, tournament-ready. The piece that started the movement and still sets the standard.",
+    proof: ["Moisture-wicking", "Structured fit", "Antimicrobial"],
+    image: "/assets/col-tour-black.jpg",
+    accent: "#c9a227",
+    accent2: "#5a4a12",
+  },
+  {
+    name: "Desert Classic",
+    locale: "Scottsdale, AZ",
+    blurb:
+      "Sun-baked ember tones and hydrophobic weave built for 100-degree tee times. Rooted in the Sonoran, made for anywhere.",
+    proof: ["Hydrophobic", "Moisture-wicking", "Structured fit"],
+    image: "/assets/col-desert-classic.jpg",
+    accent: "#c8702a",
+    accent2: "#5a2a0e",
+  },
+  {
+    name: "Pinseeker",
+    locale: "Palm City",
+    blurb:
+      "Coastal calm meets dialed-in performance. Breathable, quick-drying, and clean enough for the 19th hole.",
+    proof: ["Moisture-wicking", "Antimicrobial", "Structured fit"],
+    image: "/assets/col-pinseeker.jpg",
+    accent: "#2f9e8f",
+    accent2: "#123f39",
+  },
+  {
+    name: "Players Rope",
+    locale: "Augusta",
+    blurb:
+      "Classic rope-brim heritage, reworked in gold and black. Timeless silhouette, modern fabric, zero compromise.",
+    proof: ["Antimicrobial", "Structured fit", "Moisture-wicking"],
+    image: "/assets/col-players-rope.jpg",
+    accent: "#3f7d3a",
+    accent2: "#173a15",
+  },
+  {
+    name: "Miami Vice",
+    locale: "South Beach",
+    blurb:
+      "Neon-dusk energy with grown-up restraint. The vibe piece — loud enough to notice, premium enough to respect.",
+    proof: ["Hydrophobic", "Moisture-wicking", "Structured fit"],
+    image: "/assets/col-miami-vice.jpg",
+    accent: "#d6478f",
+    accent2: "#4a1533",
+  },
+];
